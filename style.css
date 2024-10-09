@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start {
+  width: 300px;
+  height: 100px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid;
+  font-size: 24px;
+  position: absolute;
+  top: 260px;
+  left: 39%;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.end {
+  width: 300px;
+  height: 100px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid;
+  font-size: 28px;
+  position: absolute;
+  top: 260px;
+  left: 39%;
+  z-index: 100;
+  display: none;
+  text-align: center;
+  padding: 30px;
+}
+
+.score {
+  background-color: aliceblue;
+
+  position: absolute;
+  top: 10px;
+  left: 45%;
+  padding: 20px;
+  border: 1px solid;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.highScore {
+  background-color: aliceblue;
+  position: absolute;
+  top: 40px;
+  left: 75%;
+  padding: 20px;
+  border: 1px solid;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.score span {
+}
+
+.square {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: #ebe2e2;
+  margin: 100px;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  align-content: space-between;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.circle {
+  background-color: red;
+  width: 112px;
+  height: 130px;
+  border-radius: 50%;
+  box-shadow: aliceblue;
+  box-shadow: 35px 33px 19px -11px rgba(0, 0, 0, 0.75) inset;
+
+  border: 4px solid black;
+}
+
+.mole {
+  position: absolute;
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  top: 70px;
+  left: 60px;
+}
+
+.timeLeft {
+  background-color: aliceblue;
+
+  position: absolute;
+  top: 40px;
+  left: 6%;
+  padding: 20px;
+  border: 1px solid;
+  font-size: 25px;
+  font-family: cursive;
+}
